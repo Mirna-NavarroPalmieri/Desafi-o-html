@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <title>Ricas Recetas</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma;
+        }
+
+       .header{
+        background-color: rgb(204, 20, 20);
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        }
+        .contacto{
+        display: block;
+
+        align-items: flex-start;
+        }
+         
+ .footer{
+        background-color: rgb(204, 20, 20);
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div>
+            <h1>Ricas Recetas</h1>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+    <main>
+        <form class="contacto" action="#" method="post">
+        <label for="nombre"class="labelRegistro">Nombre:</label>
+        <input type="text" id="nombre" class="inputRegistro" name="nombre" placeholder="Escriba su nombre aquí">
+        <br>
+        <br>
+
+        <label for="apellido"class="labelRegistro">Apellido:</label>
+        <input type="text" id="apellido" class="inputRegistro" name="apellido" placeholder="Escriba su apellido aquí">
+        <br>
+        <br>
+
+        <label for="mail"class="labelRegistro">Mail:</label>
+        <input type="email" id="mail" class="inputRegistro" name="mail" placeholder="Escriba su mail aqui">
+        <br>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea  id="omentario" cols="50" rows="30"></textarea>
+        <input type="submit" value="Enviar" class="botonEnviar">
+
+        </form>
+        <br><br>
+        <a href="index.html">Volver a la pagina principal</a>
+        <br>
+        <br>
+    </main>
+    <hr>
+
+    <footer class="footer">
+
+     </footer>
+   
+</body>
+</html>
